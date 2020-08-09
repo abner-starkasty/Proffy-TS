@@ -81,6 +81,9 @@
 
 .teacher-item footer a:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 @media (min-width: 700px) {

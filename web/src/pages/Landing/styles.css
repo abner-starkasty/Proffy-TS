@@ -65,16 +65,22 @@
   background: var(--color-primary-lighter);
 }
 
+.buttons-container a.study:hover {
+  background: var(--color-primary-light);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
+}
+
 .buttons-container a.give-classes {
   background: var(--color-secondary);
 }
 
-.buttons-container a.study:hover {
-  background: var(--color-primary-light);
-}
-
 .buttons-container a.give-classes:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 .total-connections {

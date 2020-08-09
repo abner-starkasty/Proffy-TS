@@ -3,13 +3,14 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
   container: {
     flex: 1, //Faz com que preencha toda a tela
-    backgroundColor: '#8257E5',
+    backgroundColor: '#187a15',
     justifyContent: "center",
     padding: 40
   },
 
   banner: {
     width: '100%',
+    marginTop: 50,
     resizeMode: 'contain' // Para não distorcer a imagem. Não existe no CSS.
   },
 
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 20,
     lineHeight: 30,
-    marginTop: 80,    
+    marginTop: 40,    
   },
 
   titleBold: {
@@ -41,11 +42,11 @@ const styles = StyleSheet.create({
   },
 
   buttonPrimary: {
-    backgroundColor: '#9870f5'
+    backgroundColor: '#18c413'
   },
 
   buttonSecondary: {
-    backgroundColor: '#04d361'
+    backgroundColor: '#7159c1'
   },
 
   buttonText: {

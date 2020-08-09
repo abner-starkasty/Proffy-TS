@@ -195,6 +195,7 @@ function TeacherForm() {
             </p>
 
             <button type="submit">
+              <span className="material-icons">save</span>
               Salvar cadastro
             </button>
           </footer>

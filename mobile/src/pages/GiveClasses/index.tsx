@@ -31,7 +31,7 @@ function GiveClasses() {
         onPress={handleNavigateBack}
         style={styles.okButton}
       >
-        <Text style={styles.okButtonText}>Tudo bem</Text>
+        <Text style={styles.okButtonText}>Beleza!</Text>
       </RectButton>
     </View>
   )

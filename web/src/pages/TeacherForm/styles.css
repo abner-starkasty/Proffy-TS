@@ -55,6 +55,9 @@
 
 #page-teacher-form main fieldset legend button:hover {
   color: var(--color-primary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 #page-teacher-form main fieldset .input-block + .textarea-block,
@@ -95,6 +98,10 @@
   margin-right: 2rem;
 }
 
+#page-teacher-form main footer button span {
+  margin-right: 2rem;
+}
+
 #page-teacher-form main footer button {
   width: 100%;
   height: 5.6rem;
@@ -115,6 +122,9 @@
 
 #page-teacher-form main footer button:hover {
   background: var(--color-secondary-dark);
+
+  transform: translateY(-10px);
+  transition: all 0.4s;
 }
 
 @media (min-width: 700px) {

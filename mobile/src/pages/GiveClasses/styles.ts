@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
   container: {
     flex: 1, //Faz com que preencha toda a tela
-    backgroundColor: '#8257E5',
+    backgroundColor: '#187a15',
     justifyContent: "center",
     padding: 40
   },
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 
   okButton: {
     marginVertical: 40,
-    backgroundColor: '#04d361',
+    backgroundColor: '#7159c1',
     height: 58,
     alignItems: "center",
     justifyContent: "center",
