@@ -44,12 +44,12 @@
 ---
 
 <p align="center">
- <a href="#sobre">Sobre</a> •
- <a href="#etapas-do-projeto">Etapas do projeto</a> • 
- <a href="#tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#como-baixar-o-projeto">Como baixar o projeto</a> • 
- <a href="#licença">Licença</a> • 
- <a href="#desenvolvedor">Desenvolvedor</a>
+ <a href="#-sobre">Sobre</a> •
+ <a href="#-etapas-do-projeto">Etapas do projeto</a> • 
+ <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
+ <a href="#-como-baixar-o-projeto">Como baixar o projeto</a> • 
+ <a href="#-licença">Licença</a> • 
+ <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
 
 ---
