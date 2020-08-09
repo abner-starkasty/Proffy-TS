@@ -1,8 +1,7 @@
 <h1 align="center">
     <img 
-        src=""
-        width="200px"
-        alt="Logo do LaunchBase">
+        src="web/public/banner.PNG"
+        height="450px">
 </h1>
 
 <p align="center">
