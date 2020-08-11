@@ -65,12 +65,15 @@ Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 #### 💻 Web
 
 <p align="center">
-    <img src="/web/public/banner.PNG" height="400px"><img src="/web/public/banner2.PNG" height="400px"><img src="/web/public/banner3.PNG" height="400px">
+    <img src="/web/public/banner.PNG" height="400px">
+    <img src="/web/public/banner2.PNG" height="400px"><img src="/web/public/banner3.PNG" height="400px">
 </p>
 
 #### 📱 Mobile
 
-<img src="./web/public/mob1.jpg" height="350px"><img src="./web/public/mob2.jpg" height="350px"><img src="./web/public/mob3.jpg" height="350px"><img src="./web/public/mob4.jpg" height="350px">  
+<p align="center">
+    <img src="./web/public/mob1.jpg" height="350px"><img src="./web/public/mob2.jpg" height="350px"><img src="./web/public/mob3.jpg" height="350px"><img src="./web/public/mob4.jpg" height="350px"> 
+</p>
 
 #### 🎬 Breve vizualização
 <p align="center">
