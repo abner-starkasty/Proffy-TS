@@ -4,7 +4,7 @@
         height="450px">
 </h1>
 
-<h6 align="center" style="color: #05d463">Trilha Omnistack</h6>
+<h4 align="center" style="color: #05d463;">Trilha Omnistack</h4>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abnerwillys/">
