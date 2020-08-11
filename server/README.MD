@@ -7,6 +7,6 @@
 
 ## Aulas
 
-- Rota para criar uma Aula; ok
+- Rota para criar uma Aula;
 - Rota para Listar aulas;
  - Filtrar por matéria, dia da semana e Horário
