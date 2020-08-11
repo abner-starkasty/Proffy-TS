@@ -61,12 +61,25 @@ O projeto **Proffy** de estudos online, onde é possivel conectar alunos com pro
 
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
+
+#### 💻 Web
+
+<img src="/web/public/banner.PNG" width="400px">
+<img src="/web/public/banner2.PNG" width="400px">
+<img src="/web/public/banner3.PNG" width="400px">
+
+#### 📱 Mobile
+
+<img src="./web/public/mob1.jpg" width="400px">
+<img src="./web/public/mob2.jpg" width="400px">
+<img src="./web/public/mob3.jpg" width="400px">
+<img src="./web/public/mob4.jpg" width="400px">  
+
 <p align="center">
-    <a href="">
-        <img src="" width="600px">
+    <a href="https://www.youtube.com/watch?v=64nT16NwF04&feature=youtu.be">
+        <img src="/web/public/proffy-video.PNG" width="600px">
     </a>
 </p>
-
 
 ---
 ### 📝 Etapas do projeto
@@ -100,6 +113,8 @@ As seguintes tecnologias/ferramentas foram utilizadas:
 - [Git](https://git-scm.com/);
 - [Figma](https://www.figma.com/);
 - [VSCode](https://code.visualstudio.com/);
+- [Vercel](https://vercel.com/);
+- [Heroku](https://www.heroku.com/);
 
 
 ---
