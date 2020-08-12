@@ -4,7 +4,7 @@
         height="450px">
 </h1>
 
-<h4 align="center" style="color: #05d463;">Trilha Omnistack</h4>
+<h4 align="center">Trilha Omnistack</h4>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abnerwillys/">
@@ -59,7 +59,7 @@
 
 O projeto **Proffy** de estudos online, onde é possivel conectar alunos com professores.
 
-Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Omnistack*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript/TypeScript.
+Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Omnistack (confira a Trilha Discovery [clicando Aqui](https://github.com/abner-starkasty/Proffy-Javascript))*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript/TypeScript.
 
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
