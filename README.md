@@ -1,10 +1,8 @@
 <h1 align="center">
     <img 
-        src="web/public/banner.PNG"
-        height="450px">
+        src="./readme-assets/banner.PNG"
+        width="800px">
 </h1>
-
-<h4 align="center">Trilha Omnistack</h4>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abnerwillys/">
@@ -24,7 +22,7 @@
   <a href="https://www.typescriptlang.org/">
     <img 
         alt="Typescript" 
-        src="https://img.shields.io/badge/-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT">
+        src="https://img.shields.io/badge/|-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT">
   </a>
   <a href="https://github.com/abner-starkasty/Proffy-Typescript/tree/master/server">
     <img 
@@ -49,7 +47,7 @@
  <a href="#-sobre">Sobre</a> •
  <a href="#-etapas-do-projeto">Etapas do projeto</a> • 
  <a href="#-tecnologias-utilizadas">Tecnologias</a> • 
- <a href="#-como-baixar-o-projeto">Como baixar o projeto</a> • 
+ <a href="#-como-executar-o-projeto">Como executar o projeto</a> • 
  <a href="#-licença">Licença</a> • 
  <a href="#-desenvolvedor">Desenvolvedor</a>
 </p>
@@ -57,9 +55,13 @@
 ---
 ### 🔖 Sobre
 
-O projeto **Proffy** de estudos online, onde é possivel conectar alunos com professores.
+O projeto **Proffy** é uma plataforma de estudos online, onde é possível conectar alunos com professores.
 
-Esse projeto foi proposto durante a **Next Level Week #2** na *trilha Omnistack (confira a Trilha Discovery [clicando Aqui](https://github.com/abner-starkasty/Proffy-Javascript))*, lecionado pela **@Rocketseat**. O projeto foi desenvolvido em diversas etapas conforme o decorrer do evento, com o objetivo de apresentar os principais pontos de um projeto real desenvolvido na stack JavaScript/TypeScript.
+O professor que deseja **Ensinar** cadastra suas informações na plataforma. Dessa forma seu perfil irá ficar disponível para o aluno que deseja **Estudar**. Este por sua vez, pode entrar na plataforma e filtrar os professores por Matéria, Dias da semana e Horário.
+
+Na versão Mobile também é possível o aluno favoritar seus professores favoritos.
+
+Um projeto fullstack, desenvolvido em **Typescript** em cima de uma API Rest com Node.JS, Front end web com ReactJS e Front end Mobile com React Native.
 
 Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 
@@ -67,20 +69,21 @@ Neste projeto foi utilizado a metodologia 📲 **Mobile First.** 📲
 #### 💻 Web
 
 <p align="center">
-    <img src="/web/public/banner.PNG" height="400px">
-    <img src="/web/public/banner2.PNG" height="400px"><img src="/web/public/banner3.PNG" height="400px">
+    <img src="./readme-assets/banner1.PNG" width="600px">
+    <img src="./readme-assets/banner2.PNG" width="600px">
+    <img src="./readme-assets/banner3.PNG" width="600px">
 </p>
 
 #### 📱 Mobile
 
 <p align="center">
-    <img src="./web/public/mob1.jpg" height="350px"><img src="./web/public/mob2.jpg" height="350px"><img src="./web/public/mob3.jpg" height="350px"><img src="./web/public/mob4.jpg" height="350px"> 
+    <img src="./readme-assets/mob1.jpg" height="350px"> <img src="./readme-assets/mob2.jpg" height="350px"> <img src="./readme-assets/mob3.jpg" height="350px"> <img src="./readme-assets/mob4.jpg" height="350px"> 
 </p>
 
 #### 🎬 Breve vizualização
 <p align="center">
     <a href="https://www.youtube.com/watch?v=64nT16NwF04&feature=youtu.be">
-        <img src="/web/public/proffy-video.PNG" width="600px">
+        <img src="./readme-assets/proffy-video.PNG" width="600px">
     </a>
 </p>
 
@@ -121,38 +124,93 @@ As seguintes tecnologias/ferramentas foram utilizadas:
 
 
 ---
-### 📎 Como baixar o projeto
 
-##### 👉 Ferramentas necessárias:
+### 🚀👩‍🚀 Como executar o projeto
+
+#### 👉 Pré-requisitos:
+
 - Editor:
-    - [Vscode](https://code.visualstudio.com/) foi utilizado nesse projeto; 
+  - [Vscode](https://code.visualstudio.com/) foi utilizado nesse projeto;
 - [Node.Js](https://nodejs.org/en/) - Instalado em sua máquina;
+- [Expo](https://expo.io/) - Caso queira testar a versão mobile instale aplicativo do expo no seu smartphone;
 - [Git](https://git-scm.com/downloads) - Instalado em sua máquina;
 
-##### 👉 Após instalar as ferramentas:
+#### 👉 Após instalar as ferramentas:
+
+Podemos considerar este projeto como sendo divido em três partes:
+1. Back End (pasta server) 
+2. Front End (pasta web)
+3. Mobile (pasta mobile)
+
+💡 **IMPORTANTE:** Tanto o Front End quanto o Mobile precisam que o Back End esteja executando para funcionar.
+
+### 🛠 Rodando o Back End (servidor)
 
 ```bash
+# Clone este repositório
+$ git clone https://github.com/abner-starkasty/Proffy-TS
 
-#->No terminal:
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Proffy-TS
 
-# Clonar repositório:
-$ git clone https://github.com/abner-starkasty/Proffy-Typescript
+# Vá para a pasta server
+$ cd server
 
-# Entrar no diretório da etapa do projeto desejada:
--> $ cd web
--> $ cd server
--> $ cd mobile
+# Instale as dependências
+$ yarn
 
-# Instalar dependências
-$ yarn install
+# Executar migrations para criação do Banco de Dados
+$ yarn knex:migrate
 
-# Iniciar o projeto
+# Subir o servidor
 $ yarn start
 
-# Após carregar o projeto automaticamente irá abrir uma guia no navegador padrão.
-
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
 ```
 
+### ♻ Rodando a aplicação web
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/abner-starkasty/Proffy-TS
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Proffy-TS
+
+# Vá para a pasta web
+$ cd web
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação (Lembrando que é necessário o server estar executando)
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+### ♻ Rodando a aplicação mobile
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/abner-starkasty/Proffy-TS
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Proffy-TS
+
+# Vá para a pasta web
+$ cd mobile
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação (Lembrando que é necessário o server estar executando)
+$ yarn start
+
+# Com seu celular entre no aplicativo Expo;
+
+# Selecione para scanear o QR code gerado;
+```
 
 ---
 ### 📜 Licença
